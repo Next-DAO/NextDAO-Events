@@ -1,0 +1,7 @@
+{
+  "name": "nextdao_events",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "shep.eth <shep@nextdao.xyz>",
+  "license": "MIT"
+}
