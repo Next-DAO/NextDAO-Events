@@ -1,6 +1,1 @@
-{
-  "name": "Nextalk #4",
-  "description": "NextDAO Events is a collection of events hosted by NextDAO.",
-  "image": "https://d21iehwzq7iye8.cloudfront.net/images/4.png",
-  "attributes": [{"trait_type": "Type", "value": "Nextalk"}]
-}
+{"name":"Nextalk #4","description":"NextDAO Events is a collection of events hosted by NextDAO.","image":"https://d21iehwzq7iye8.cloudfront.net/images/4.png","attributes":[{"trait_type":"Event","value":"Nextalk"},{"trait_type":"Type","value":"AMA"}]}
