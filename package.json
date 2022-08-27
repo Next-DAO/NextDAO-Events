@@ -3,5 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "shep.eth <shep@nextdao.xyz>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "ethers": "^5.7.0"
+  }
 }

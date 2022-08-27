@@ -23,4 +23,23 @@ const nextalkMD = async () => {
   }
 };
 
-nextalkMD();
+const nextloveMD = async () => {
+  const indexes = [2001, 2002, 2003, 2004, 2006];
+
+  for (const id of indexes) {
+    const metadata = {
+      name: `NextLove #${id - 2000}`,
+      description: desc,
+      image: `${baseURI}images/${id}.png`,
+      attributes: [
+        { trait_type: "Event", value: "NextLove" },
+        { trait_type: "Type", value: "Dating" },
+      ],
+    };
+
+    await fs.writeFileSync(`${metadataPath}${id}`, JSON.stringify(metadata));
+  }
+};
+
+//nextalkMD();
+nextloveMD();
